@@ -5,4 +5,4 @@ RUN mkdir /cmsys
 WORKDIR /cmsys
 ADD . /cmsys/
 RUN pip install -r requirements.txt
-CMD python3 manage.py runserver
+CMD python3 manage.py runserver 
